@@ -1,87 +1,4 @@
-2019-06-29 22:45:04,745INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:45:36,482INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:46:06,844INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:46:08,665ERROR:Exception on /4 [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
-Traceback (most recent call last):
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1810, in dispatch_request
-    self.raise_routing_exception(req)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1793, in raise_routing_exception
-    raise request.routing_exception
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\ctx.py", line 336, in match_request
-    self.url_adapter.match(return_rule=True)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\werkzeug\routing.py", line 1786, in match
-    raise NotFound()
-werkzeug.exceptions.NotFound: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1732, in handle_user_exception
-    return self.handle_http_exception(e)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1661, in handle_http_exception
-    return handler(e)
-  File "C:\Matt's Files\Python\microblog\app\errors.py", line 9, in not_found_error
-    return render_template('404.hmml'), 404
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 134, in render_template
-    return _render(ctx.app.jinja_env.get_or_select_template(template_name_or_list),
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 869, in get_or_select_template
-    return self.get_template(template_name_or_list, parent, globals)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 830, in get_template
-    return self._load_template(name, self.make_globals(globals))
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 804, in _load_template
-    template = self.loader.load(self, name, globals)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\loaders.py", line 113, in load
-    source, filename, uptodate = self.get_source(environment, name)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 58, in get_source
-    return self._get_source_fast(environment, template)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 86, in _get_source_fast
-    raise TemplateNotFound(template)
-jinja2.exceptions.TemplateNotFound: 404.hmml
-2019-06-29 22:49:03,603INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:52:46,869INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:52:55,735INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-29 22:53:22,788INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:27:53,425INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:28:02,509INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:38:35,715INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:38:40,591INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:48:00,705INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:48:15,751INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:51:24,657INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:58:10,368INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 10:58:24,198INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 11:00:12,178INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 11:02:17,873INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 11:02:29,038INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 12:31:08,116INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 12:31:25,385INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 12:31:30,552INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
-2019-06-30 12:33:53,542ERROR:Exception on /follow/mdevaney [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
-Traceback (most recent call last):
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
-    response = self.full_dispatch_request()
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
-    raise value
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
-    return func(*args, **kwargs)
-  File "C:\Matt's Files\Python\microblog\app\routes.py", line 103, in follow
-    user = user.query.filter_by(username=username).first()
-UnboundLocalError: local variable 'user' referenced before assignment
-2019-06-30 12:34:18,853ERROR:Exception on /follow/mdevaney [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
+2019-06-30 12:34:35,521ERROR:Exception on /follow/mdevaney [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
 Traceback (most recent call last):
   File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
     response = self.full_dispatch_request()
@@ -100,7 +17,8 @@ Traceback (most recent call last):
   File "C:\Matt's Files\Python\microblog\app\routes.py", line 103, in follow
     user = User.query.filter_by(username=username).first()
 UnboundLocalError: local variable 'user' referenced before assignment
-2019-06-30 12:34:24,592ERROR:Exception on /follow/mdevaney [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
+2019-06-30 20:49:23,003INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:53]
+2019-06-30 20:49:24,516ERROR:Exception on / [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
 Traceback (most recent call last):
   File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
     response = self.full_dispatch_request()
@@ -116,6 +34,98 @@ Traceback (most recent call last):
     return self.view_functions[rule.endpoint](**req.view_args)
   File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
     return func(*args, **kwargs)
-  File "C:\Matt's Files\Python\microblog\app\routes.py", line 103, in follow
-    user = User.query.filter_by(username=username).first()
-UnboundLocalError: local variable 'user' referenced before assignment
+  File "C:\Matt's Files\Python\microblog\app\routes.py", line 25, in index
+    return render_template('index.html', title='Home Page', form=form, posts=posts)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Matt's Files\Python\microblog\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 15, in block "content"
+    <p>{{ form.submit() }}</p>
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'submit'
+2019-06-30 20:49:27,007ERROR:Exception on /index [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Matt's Files\Python\microblog\app\routes.py", line 25, in index
+    return render_template('index.html', title='Home Page', form=form, posts=posts)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Matt's Files\Python\microblog\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 15, in block "content"
+    <p>{{ form.submit() }}</p>
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'submit'
+2019-06-30 20:49:28,957ERROR:Exception on /index [GET][inc:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py:1780]
+Traceback (most recent call last):
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\_compat.py", line 36, in reraise
+    raise value
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask_login\utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "C:\Matt's Files\Python\microblog\app\routes.py", line 25, in index
+    return render_template('index.html', title='Home Page', form=form, posts=posts)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 135, in render_template
+    context, ctx.app)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\flask\templating.py", line 117, in _render
+    rv = template.render(context)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Matt's Files\Python\microblog\app\templates\base.html", line 31, in top-level template code
+    {% block content %}{% endblock %}
+  File "C:\Matt's Files\Python\microblog\app\templates\index.html", line 15, in block "content"
+    <p>{{ form.submit() }}</p>
+jinja2.exceptions.UndefinedError: 'app.forms.PostForm object' has no attribute 'submit'
