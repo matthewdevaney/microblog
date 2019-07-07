@@ -129,3 +129,4 @@ Traceback (most recent call last):
   File "c:\matt's~1\python\microb~1\venv\lib\site-packages\jinja2\lexer.py", line 384, in expect
     self.name, self.filename)
 jinja2.exceptions.TemplateSyntaxError: expected token 'end of print statement', got '_for'
+2019-07-07 14:25:05,103INFO:Microblog startup[inC:\Matt's Files\Python\microblog\app\__init__.py:56]
